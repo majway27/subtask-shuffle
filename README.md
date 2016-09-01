@@ -7,6 +7,7 @@
 * Add Parent ID amd Issue ID columns per standard Atlassian doc
 * The CSV library seems to handle most encodings well
 * See config points for files at top of each script.
+
 ### Execution
 * IssueIDNumbering.rb - 1st step, setup Issue ID column, every issuetype that is not a "Sub-task" category of of issuetype
 * Subtasker.rb - 2nd step, iterates though each issue in export, if it has listed sub-tasks, those are found, their Parent ID column updated, and written out.
